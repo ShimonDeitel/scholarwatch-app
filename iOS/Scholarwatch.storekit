@@ -1,0 +1,42 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "SUBGROUP1",
+      "localizations": [],
+      "name": "Scholarwatch Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "SUB1",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Get renewal tracking and reminders before scholarship deadlines pass.",
+              "displayName": "Deadline Reminders",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.scholarwatch.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Scholarwatch Pro Monthly",
+          "subscriptionGroupID": "SUBGROUP1",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
